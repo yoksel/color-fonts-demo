@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'BungeeSbix';
+    src: url('fonts/Bungee/Bungee_Color_Fonts/BungeeColor-Regular_sbix_MacOS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RocherColor';
+    src: url('fonts/RocherColorGX/RocherColorGX.woff2') format('woff2'),
+         url('fonts/RocherColorGX/RocherColorGX.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EmojiOneColor';
+    src: url('fonts/emojione-color-master/EmojiOneColor.woff2') format('woff2'),
+      url('fonts/emojione-color-master/EmojiOneColor.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilbert';
+  src: url('fonts/Gilbert_1.004_alpha/Gilbert-Color%20Bold-Preview_1004.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bixa';
+  src: url('fonts/NTBixa-Color-original/NTBixa-Color.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BixaMy';
+  src: url('fonts/NTBixa-Color-my-colors/NTBixa-Color.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Abelone';
+  src: url('fonts/Abelone/Abelone-FREE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playbox';
+  src: url('fonts/Playbox/Playbox-FREE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bungee';
+  src: url('fonts/Bungee/Bungee_Color_Fonts/BungeeColor-Regular_svg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+HTML {
+  font-size: 16px;
+}
+
+BODY {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: 1rem/1.4 Trebuchet MS, sans-serif;
+}
+
+A {
+  color: steelblue;
+}
+
+A:visited {
+  color: plum;
+}
+
+H1 {
+  margin: 0;
+  padding: .5rem;
+  text-align: center;
+  background: #000;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+H2 {
+  color: tomato;
+}
+
+H3 {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+H3 A {
+  font-size: 1rem;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.note {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.fonts {
+  overflow: hidden;
+}
+
+.fonts__list {
+  margin: 0 -.5rem;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fonts__item {
+  margin: 0 .5rem .5rem;
+  padding: .5rem;
+  border: 1px solid #DDD;
+}
+
+.font {
+  margin-top: .75rem;
+  display: inline-block;
+  font-size: 7rem;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.font--bungee-sbix {
+  font-family: BungeeSbix;
+}
+
+.font--rocher {
+  font-family: RocherColor;
+  font-variation-settings: "BVEL" 50, "SHDW" 100;
+}
+
+.font--emoji-otf {
+  font-family: EmojiOneColor;
+}
+
+.font--gilbert {
+  font-family: Gilbert;
+}
+
+.font--bixa {
+  font-family: Bixa;
+}
+
+.font--bixa-my {
+  font-family: BixaMy;
+}
+
+.font--abelone {
+  font-family: Abelone;
+}
+
+.font--playbox {
+  font-family: Playbox;
+}
+
+.font--bungee {
+  font-family: Bungee;
+}
