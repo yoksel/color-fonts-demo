@@ -14,6 +14,13 @@
 }
 
 @font-face {
+    font-family: 'NotoColorEmoji';
+    src: url('fonts/NotoColorEmoji-unhinted/NotoColorEmoji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'EmojiOneColor';
     src: url('fonts/emojione-color-master/EmojiOneColor.woff2') format('woff2'),
       url('fonts/emojione-color-master/EmojiOneColor.otf') format('opentype');
@@ -36,13 +43,6 @@
 }
 
 @font-face {
-  font-family: 'BixaMy';
-  src: url('fonts/NTBixa-Color-my-colors/NTBixa-Color.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Abelone';
   src: url('fonts/Abelone/Abelone-FREE.otf') format('opentype');
   font-weight: normal;
@@ -59,6 +59,13 @@
 @font-face {
   font-family: 'Bungee';
   src: url('fonts/Bungee/Bungee_Color_Fonts/BungeeColor-Regular_svg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ColorTube';
+  src: url('fonts/colortube/ColorTube.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -150,6 +157,10 @@ H3 A {
   font-variation-settings: "BVEL" 50, "SHDW" 100;
 }
 
+.font--notocoloremoji {
+  font-family: NotoColorEmoji;
+}
+
 .font--emoji-otf {
   font-family: EmojiOneColor;
 }
@@ -162,10 +173,6 @@ H3 A {
   font-family: Bixa;
 }
 
-.font--bixa-my {
-  font-family: BixaMy;
-}
-
 .font--abelone {
   font-family: Abelone;
 }
@@ -176,4 +183,9 @@ H3 A {
 
 .font--bungee {
   font-family: Bungee;
+}
+
+.font--colortube {
+  margin-top: 2rem;
+  font-family: ColorTube;
 }
